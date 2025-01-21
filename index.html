@@ -1,0 +1,2223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookoe</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <!-- navber part start -->
+    <nav class="navbar navbar-expand-lg navbar-light navber-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="image">
+            <img src="./images/logo.png" alt="logo" />
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="input-group">
+            <span class="input-group-text">
+              <i class="fa-solid fa-qrcode qrcode"></i>
+              <h5>Menus</h5>
+              <i class="fa-solid fa-angle-down angle"></i>
+              <div class="dropdownMenu">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <ul class="list">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About us</a></li>
+                      <li><a href="#">Contact us</a></li>
+                      <li><a href="#">Products</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list">
+                      <li><a href="#">Quick Links</a></li>
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#">Sign Up</a></li>
+                      <li><a href="#">FAQ</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-4">
+                    <ul class="list">
+                      <li><a href="#">Books Categories</a></li>
+                      <li><a href="#">Advanture</a></li>
+                      <li><a href="#">Comedy</a></li>
+                      <li><a href="#">View more</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </span>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search over 30 million book titles"
+            />
+            <span class="input-group-text">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+          </div>
+          <div class="nav_btn">
+            <button type="button" class="btn_login">Log In</button>
+            <button type="button" class="btn_login">
+              <i class="fa-regular fa-user"></i>
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navber part end -->
+    <!-- bnner part start  -->
+    <section id="bnner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./images/bnner1.png"
+                    class="d-block w-100"
+                    alt="bnner1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/bnner1.png"
+                    class="d-block w-100"
+                    alt="bnner1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/bnner1.png"
+                    class="d-block w-100"
+                    alt="bnner1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/bnner1.png"
+                    class="d-block w-100"
+                    alt="bnner1"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div
+              id="carouselExampleIndicators2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./images/bnner2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/bnner2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/bnner2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bnner part end -->
+    <!-- delivary part start  -->
+    <section id="delivary">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-3">
+            <div class="main">
+              <div class="icon">
+                <img src="./images/icon1.png" alt="icon1" />
+              </div>
+              <div class="item">
+                <h3>Quick Delivery</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="main">
+              <div class="icon">
+                <img src="./images/icon2.png" alt="icon2" />
+              </div>
+              <div class="item">
+                <h3>Secure Payment</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="main">
+              <div class="icon">
+                <img src="./images/icon3.png" alt="icon3" />
+              </div>
+              <div class="item">
+                <h3>Best Quality</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="main">
+              <div class="icon">
+                <img src="./images/icon4.png" alt="icon4" />
+              </div>
+              <div class="item">
+                <h3>Return Guarantee</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- delivary part end -->
+    <!-- poplur part start  -->
+    <section id="poplur">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="main">
+              <div class="text">
+                <h2>Recomended For You</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="Product">
+                <div
+                  id="carouselExampleFade"
+                  class="carousel slide carousel-fade"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product5.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product5.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="silederIcon">
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleFade"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icons"
+                        aria-hidden="true"
+                        ><i class="fa-solid fa-angle-right"></i
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="item">
+              <div class="text">
+                <h2>Popular in 2020</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="Product">
+                <div
+                  id="carouselExampleFade2"
+                  class="carousel slide carousel-fade"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product5.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="image">
+                          <img
+                            src="./images/product2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="silederIcon">
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleFade2"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icons"
+                        aria-hidden="true"
+                        ><i class="fa-solid fa-angle-right"></i
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- poplur part end -->
+    <!-- poplur sm part start -->
+    <section id="poplur-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="main">
+              <div class="text">
+                <h2>Recomended For You</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="Product">
+                <div
+                  id="carouselExampleFade4"
+                  class="carousel slide carousel-fade"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="silederIcon">
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleFade4"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icons"
+                        aria-hidden="true"
+                        ><i class="fa-solid fa-angle-right"></i
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="item">
+              <div class="text">
+                <h2>Popular in 2020</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="Product">
+                <div
+                  id="carouselExampleFade5"
+                  class="carousel slide carousel-fade"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="imgHolder">
+                        <div class="image">
+                          <img
+                            src="./images/product6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+                  <div class="silederIcon">
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleFade5"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icons"
+                        aria-hidden="true"
+                        ><i class="fa-solid fa-angle-right"></i
+                      ></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- poplur sm part end -->
+     
+    <!-- offer part start  -->
+    <section id="offer">
+      <div class="container">
+        <div class="header">
+          <h2>Special Offers</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="image">
+                <img src="./images/offer3.webp" alt="" />
+              </div>
+              <div class="text">
+                <h3>SECONDS [Part I]</h3>
+                <div class="btn">
+                  <a href="#">BIOGRAPHY</a>
+                  <a href="#">THRILLER</a>
+                  <a href="#">HORROR</a>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris
+                </p>
+                <h4>Kevin Smiley</h4>
+                <div class="bottom_part">
+                  <button type="button" class="btn btn-secondary">
+                    Add to cart
+                  </button>
+                  <div class="priging">
+                    <h5>$18,78</h5>
+                    <span>$25</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="image">
+                <img src="./images/offer.webp" alt="" />
+              </div>
+              <div class="text">
+                <h3>Terrible Madness</h3>
+                <div class="btn">
+                  <a href="#">BIOGRAPHY</a>
+                  <a href="#">THRILLER</a>
+                  <a href="#">HORROR</a>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris
+                </p>
+                <h4>David Here</h4>
+                <div class="bottom_part">
+                  <button type="button" class="btn btn-secondary">
+                    Add to cart
+                  </button>
+                  <div class="priging">
+                    <h5>$18,78</h5>
+                    <span>$25</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="item">
+              <div class="image">
+                <img src="./images/offer1.webp" alt="" />
+              </div>
+              <div class="text">
+                <h3>REWORK</h3>
+                <div class="btn">
+                  <a href="#">BIOGRAPHY</a>
+                  <a href="#">THRILLER</a>
+                  <a href="#">HORROR</a>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris
+                </p>
+                <h4>Margaretha Helew</h4>
+                <div class="bottom_part">
+                  <button type="button" class="btn btn-secondary">
+                    Add to cart
+                  </button>
+                  <div class="priging">
+                    <h5>$18,78</h5>
+                    <span>$25</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- offer part end -->
+    <!-- sale part start  -->
+    <section id="sale">
+      <div class="container">
+        <div class="header">
+          <h2 class="title">Flash Sale</h2>
+          <p class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="time">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <h3>02</h3>
+              <p>Day</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <h3>05</h3>
+              <p>Hours</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <h3>42</h3>
+              <p>Minutes</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <h3>19</h3>
+              <p>Second</p>
+            </div>
+          </div>
+        </div>
+        <div class="items">
+          <div class="row">
+            <div class="col">
+              <div class="img">
+                <img src="./images/sale1.png" alt="sale1" />
+              </div>
+              <div class="text">
+                <h4>SECONDS</h4>
+                <p class="subtitle">THRILLER</p>
+                <p class="priging">
+                  <span class="price">$ 54.78</span>
+                  <span class="discount">$70.00</span>
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="img">
+                <img src="./images/sale1.png" alt="sale1" />
+              </div>
+              <div class="text">
+                <h4>REWORK</h4>
+                <p class="subtitle">DRAMA, BIOGRAPHY</p>
+                <p class="priging">
+                  <span class="price">$ 34.56</span>
+                  <span class="discount">$50.00</span>
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="img">
+                <img src="./images/sale1.png" alt="sale1" />
+              </div>
+              <div class="text">
+                <h4>Such a Fun Age</h4>
+                <p class="subtitle">THRILLER</p>
+                <p class="priging">
+                  <span class="price">$ 14.56</span>
+                  <span class="discount">$20.00</span>
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="img">
+                <img src="./images/sale1.png" alt="sale1" />
+              </div>
+              <div class="text">
+                <h4>Emily and The Back..</h4>
+                <p class="subtitle">DRAMA, BIOGRAPHY</p>
+                <p class="priging">
+                  <span class="price">$ 76.12</span>
+                  <span class="discount">$99.00</span>
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="img">
+                <img src="./images/sale1.png" alt="sale1" />
+              </div>
+              <div class="text">
+                <h4>Battle Drive</h4>
+                <p class="subtitle">DRAMA, BIOGRAPHY</p>
+                <p class="priging">
+                  <span class="price">$ 76.12</span>
+                  <span class="discount">$99.00</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sale part end -->
+    <!-- books part starts  -->
+    <section id="books">
+      <div class="container">
+        <div
+          id="carouselExampleIndicators3"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="header">
+            <h2>Books on Sale</h2>
+          </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators3"
+            data-bs-slide="prev"
+          >
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <i class="fa-solid fa-angle-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators3"
+            data-bs-slide="next"
+          >
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <i class="fa-solid fa-angle-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- books part end -->
+
+ <!-- books sm part starts  -->
+    <section id="books-sm">
+      <div class="container">
+        <div
+          id="carouselExampleIndicators3"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="header">
+            <h2>Books on Sale</h2>
+          </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators3"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-2 ">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="images">
+                    <img src="./images/booke.png" alt="booke" />
+                    <div class="discount">
+                      <p>50%</p>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <h3>The Missadventure of..</h3>
+                    <h5>ADVANTURE, SURVIVAL</h5>
+                    <div class="priging">
+                      <div class="left">
+                        <p class="rating">
+                          <i class="fa-solid fa-star"></i
+                          ><span class="parsent">4.7</span>
+                        </p>
+                      </div>
+                      <div class="right">
+                        <p class="Product-price">
+                          <span class="main-price">$45.4</span>
+                          <span class="discount-price">$98.4</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators3"
+            data-bs-slide="prev"
+          >
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <i class="fa-solid fa-angle-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators3"
+            data-bs-slide="next"
+          >
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <i class="fa-solid fa-angle-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- books sm part end -->
+    <!-- featurad part start  -->
+    <section id="featurad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="featur-left">
+              <div class="featur-title">
+                <h2>Featured Books</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore
+                </p>
+              </div>
+              <div class="featur-box">
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="box-img"></div>
+                  </div>
+                  <div class="col-lg-7" style="padding-left: 30px">
+                    <div class="box-right">
+                      <div class="row">
+                        <div class="col-lg-2 col-3" style="padding-right: 0">
+                          <img src="./images/featuricon.svg" alt="" />
+                        </div>
+                        <div class="col-lg-10 col-9">
+                          <div class="head-taitle">
+                            <h3>Battle Drive</h3>
+                            <p>SPORTS, DRAMA</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box-content">
+                        <h4>Synopsis</h4>
+                        <p>
+                          "Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat.
+                        </p>
+                      </div>
+                      <div class="row">
+                        <div class="col-lg-6 col-7">
+                          <div class="box-name">
+                            <span>Writen by</span>
+                            <h5>Kevin Smiley</h5>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-5">
+                          <div class="box-name">
+                            <span>Year</span>
+                            <h5>2019</h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box-bottom">
+                        <div class="row">
+                          <div class="col-lg-6 col-6">
+                            <div class="bottom">
+                              <h6><strong>$ 84.78</strong> $90.00</h6>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-6">
+                            <div class="button">
+                              <button>
+                                <i class="fa-solid fa-cart-shopping"></i>ADD
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="row" style="row-gap: 15px">
+              <div class="col-lg-4">
+                <div class="featur-right">
+                  <img src="./images/offer3.webp" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="featur-right">
+                  <img src="./images/offer3.webp" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="featur-right">
+                  <img src="./images/offer3.webp" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="featur-right">
+                  <img src="./images/offer3.webp" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="featur-right">
+                  <img src="./images/offer3.webp" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="featur-right">
+                  <img src="./images/offer3.webp" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featurad part end -->
+
+    <!-- news part start  -->
+    <section id="news">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <div class="header">
+              <h2>Letest News</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-12  d-flex align-items-end justify-content-lg-end justify-content-start "
+          
+          >
+            <div class="header">
+              <button>View more <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="row justify-content-between">
+            <div class="col-lg-3">
+              <div class="news-item">
+                <div class="news-img"></div>
+                <h3>Why reading is important for our children?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore...
+                </p>
+
+                <a href="#">Continue reading</a>
+                <div class="news-user">
+                  <div class="news-img"></div>
+                  <div class="user-name">
+                    <h4>Lidya Humble</h4>
+                    <p>2 days ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="news-item">
+                <div class="news-img"></div>
+                <h3>Benefits of reading: Smart, Diligent, Happy</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore...
+                </p>
+
+                <a href="#">Continue reading</a>
+                <div class="news-user">
+                  <div class="news-img"></div>
+                  <div class="user-name">
+                    <h4>Steffanny William</h4>
+                    <p>5 August 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="news-item">
+                <div class="news-img"></div>
+                <h3>What books you should read in 2020?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore...
+                </p>
+
+                <a href="#">Continue reading</a>
+                <div class="news-user">
+                  <div class="news-img"></div>
+                  <div class="user-name">
+                    <h4>James Wong</h4>
+                    <p>3 August 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3">
+              <div class="news-item">
+                <div class="news-img"></div>
+                <h3>10 Things you must know to improve your reading skills</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore...
+                </p>
+
+                <a href="#">Continue reading</a>
+                <div class="news-user">
+                  <div class="news-img"></div>
+                  <div class="user-name">
+                    <h4>Franklin Junior</h4>
+                    <p>1 August 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- news part end -->
+
+    <!-- our part start  -->
+    <section id="our">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <div class="our-item">
+              <div class="our-icon">
+                <img src="./images/custmericon.svg" alt="" />
+              </div>
+              <h3>125,663</h3>
+              <p>Happy Customers</p>
+            </div>
+          </div>
+          <!-- ----------- -->
+          <div class="col-lg-3 col-6">
+            <div class="our-item">
+              <div class="our-icon">
+                <img src="./images/bookicon.svg" alt="" />
+              </div>
+              <h3>50,672+</h3>
+              <p>Book Collections</p>
+            </div>
+          </div>
+          <!-- ------------- -->
+          <div class="col-lg-3 col-6">
+            <div class="our-item">
+              <div class="our-icon">
+                <img src="./images/store .svg" alt="" />
+              </div>
+              <h3>1562</h3>
+              <p>Our Stores</p>
+            </div>
+          </div>
+          <!-- ------------- -->
+          <div class="col-lg-3 col-6">
+            <div class="our-item">
+              <div class="our-icon">
+                <img src="./images/writer.svg" alt="" />
+              </div>
+              <h3>457</h3>
+              <p>Famous Writers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our part end -->
+
+    <!-- input part start  -->
+    <section id="input">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <div class="input-header">
+              <h2>Subscribe our newsletter for newest books updates</h2>
+              <div class="main-input">
+                <input type="text" placeholder="Type your email here" />
+                <div class="input-btn">
+                  <button>SUBSCRIBE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- input part end -->
+
+    <!-- footer part start  -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-left">
+              <img src="./images/logo.png" alt="" />
+              <p>
+                Bookoe is a Book Store Website lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud
+              </p>
+              <h6>Follow Us</h6>
+              <div class="midea">
+                <div class="midea-item">
+                  <i class="fa-brands fa-facebook-f facebook"></i>
+                </div>
+                <div class="midea-item">
+                  <i class="fa-brands fa-youtube youtube"></i>
+                </div>
+                <div class="midea-item">
+                  <i class="fa-brands fa-twitter twitter"></i>
+                </div>
+                <div class="midea-item">
+                  <i class="fa-brands fa-linkedin linkedin"></i>
+                </div>
+                <div class="midea-item">
+                  <i class="fa-brands fa-instagram instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="item1">
+              <h4>Books Categories</h4>
+              <div class="list-item">
+                <ul>
+                  <li>Action</li>
+                  <li>Advanture</li>
+                  <li>Comedy</li>
+                  <li>Crime</li>
+                  <li>Drama</li>
+                  <li>Fantasy</li>
+                  <li>Horror</li>
+                </ul>
+                <ul>
+                  <li>Law</li>
+                  <li>Mystery</li>
+                  <li>Professional</li>
+                  <li>Romance</li>
+                  <li>TV Series</li>
+                  <a href="#"
+                    >View more <i class="fa-solid fa-angle-right"></i
+                  ></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="item2">
+              <h4>Quick Links</h4>
+              <div class="list-item">
+                <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Shipment</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="item3">
+              <h4>Our Store</h4>
+              <div class="list-item">
+                <div class="stor-img"></div>
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-location-dot"></i>832 Thompson Drive,
+                    San Fransisco CA 94107, United States
+                  </li>
+                  <li><i class="fa-solid fa-phone"></i>+123 345123 556</li>
+                  <li><i class="fa-solid fa-envelope"></i>support@bookoe.id</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ...........bottom part......  -->
+
+      <div class="copyright">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-6 col-7">
+              <div class="footer-buttom-left">
+                <p>Bookoe Book Store Website - © 2022 All Rights Reserved</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-5 text-end">
+              <div class="footer-buttom-right">
+                <p>Made with ♥ by Md Jihadul Islam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer part end -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
