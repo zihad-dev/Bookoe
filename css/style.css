@@ -85,6 +85,7 @@ nav .input-group-text .angle {
   font-size: 16px;
   transform: rotate(0deg);
   transition: 0.4s;
+  color: #286fa3;
 }
 nav .input-group-text:hover .angle {
   transform: rotate(180deg);
