@@ -857,7 +857,7 @@ nav .btn_login i {
 /* featurad css start */
 #featurad {
   background: url(../images/background.png) no-repeat center;
-  padding: 71px;
+  padding: 71px 0;
   margin-bottom: 100px;
 }
 #featurad .featur-right {
